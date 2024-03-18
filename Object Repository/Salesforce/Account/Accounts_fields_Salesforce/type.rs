@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>type</name>
+   <tag></tag>
+   <elementGuidId>807a417a-c273-4356-bb12-114216bb8fec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;3455:0&quot;)/div[@class=&quot;slds-form form-horizontal slds-is-editing&quot;]/div[@class=&quot;slds-grid slds-gutters_small full cols-2 forcePageBlockSectionRow&quot;]/div[@class=&quot;slds-grid slds-col slds-is-editing slds-has-flexi-truncate full forcePageBlockItem forcePageBlockItemEdit&quot;]/div[@class=&quot;slds-form-element slds-hint-parent&quot;]/div[@class=&quot;slds-form-element__control&quot;]/lightning-picklist[@class=&quot;forceInputMultiPicklist&quot;]/lightning-dual-listbox[@class=&quot;slds-form-element&quot;]/div[1]/div[@class=&quot;slds-form-element__control&quot;]/div[@class=&quot;slds-dueling-list&quot;]/div[@class=&quot;slds-dueling-list__column&quot;]/lightning-button-icon[1]/button[@class=&quot;slds-button slds-button_icon slds-button_icon-container&quot;]/lightning-primitive-icon[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[text()[contains(.,'Type')]]/../div/lightning-base-combobox/div//button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>lightning-primitive-icon</value>
+      <webElementGuid>cc130835-1acf-416d-838b-7a9fc3bad67b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;3455:0&quot;)/div[@class=&quot;slds-form form-horizontal slds-is-editing&quot;]/div[@class=&quot;slds-grid slds-gutters_small full cols-2 forcePageBlockSectionRow&quot;]/div[@class=&quot;slds-grid slds-col slds-is-editing slds-has-flexi-truncate full forcePageBlockItem forcePageBlockItemEdit&quot;]/div[@class=&quot;slds-form-element slds-hint-parent&quot;]/div[@class=&quot;slds-form-element__control&quot;]/lightning-picklist[@class=&quot;forceInputMultiPicklist&quot;]/lightning-dual-listbox[@class=&quot;slds-form-element&quot;]/div[1]/div[@class=&quot;slds-form-element__control&quot;]/div[@class=&quot;slds-dueling-list&quot;]/div[@class=&quot;slds-dueling-list__column&quot;]/lightning-button-icon[1]/button[@class=&quot;slds-button slds-button_icon slds-button_icon-container&quot;]/lightning-primitive-icon[1]</value>
+      <webElementGuid>a97e09e1-9f09-458c-a664-d05754cb6bbc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Desktop'])[1]/following::lightning-primitive-icon[1]</value>
+      <webElementGuid>66a68277-46e4-40fc-89d0-022b2ac08778</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='API'])[1]/following::lightning-primitive-icon[1]</value>
+      <webElementGuid>a79d3ac2-c7b5-4020-8d17-11f6d1a2eafa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Move selection to Chosen'])[1]/preceding::lightning-primitive-icon[1]</value>
+      <webElementGuid>229b7ba0-c62c-4c2a-b2cc-83b1cad80a9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Move selection to Available'])[1]/preceding::lightning-primitive-icon[2]</value>
+      <webElementGuid>4ce74dde-464e-4f02-a844-8c876f1e673f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='3455:0']/div/div[14]/div/div/div/lightning-picklist/lightning-dual-listbox/div/div[2]/div/div[4]/lightning-button-icon/button/lightning-primitive-icon</value>
+      <webElementGuid>71cfb4ec-d98c-44bf-83a6-746a3ba39b3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/lightning-button-icon/button/lightning-primitive-icon</value>
+      <webElementGuid>6b9e227d-5496-4fb5-88a9-8c8e36f567ba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

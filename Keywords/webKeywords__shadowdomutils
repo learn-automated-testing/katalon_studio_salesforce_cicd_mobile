@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "7CAA9658C26A3ACA73BFC9A3C5C98818",
+  "keywordClasses": [
+    {
+      "name": "webKeywords.shadowdomutils",
+      "keywordMethods": [
+        {
+          "name": "checkShadowDOMAndFetchRootParents",
+          "parameters": [
+            {
+              "name": "selector",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

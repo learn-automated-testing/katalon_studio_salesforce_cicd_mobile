@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>caseorgiginemail</name>
+   <tag></tag>
+   <elementGuidId>6382fa03-6d4f-4869-8d50-e9877fbd6226</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.slds-button.slds-button_icon.slds-button_icon-container > lightning-primitive-icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@title='Email']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>lightning-primitive-icon</value>
+      <webElementGuid>10ee934e-984c-48c0-8c58-84ca0f0a83b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;12381:0&quot;)/div[@class=&quot;slds-form form-horizontal slds-is-editing&quot;]/div[@class=&quot;slds-grid slds-gutters_small full cols-1 forcePageBlockSectionRow&quot;]/div[@class=&quot;slds-grid slds-col slds-is-editing slds-has-flexi-truncate full forcePageBlockItem forcePageBlockItemEdit&quot;]/div[@class=&quot;slds-form-element slds-hint-parent&quot;]/div[@class=&quot;slds-form-element__control&quot;]/lightning-picklist[@class=&quot;forceInputMultiPicklist&quot;]/lightning-dual-listbox[@class=&quot;slds-form-element&quot;]/div[1]/div[@class=&quot;slds-form-element__control&quot;]/div[@class=&quot;slds-dueling-list&quot;]/div[@class=&quot;slds-dueling-list__column&quot;]/lightning-button-icon[1]/button[@class=&quot;slds-button slds-button_icon slds-button_icon-container&quot;]/lightning-primitive-icon[1]</value>
+      <webElementGuid>540aacae-c346-470e-a3c1-00f7166420ac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KatOne'])[1]/following::lightning-primitive-icon[1]</value>
+      <webElementGuid>34445878-6b21-409e-b3d8-5e46c1577808</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TestOps'])[1]/following::lightning-primitive-icon[1]</value>
+      <webElementGuid>855563f2-70ef-478b-9760-903fe81c1f2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Move selection to Chosen'])[1]/preceding::lightning-primitive-icon[1]</value>
+      <webElementGuid>38b3cc67-5cf8-461c-8401-6f757cda0956</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Move selection to Available'])[1]/preceding::lightning-primitive-icon[2]</value>
+      <webElementGuid>3da7dcf8-29ab-4755-859f-94eaac8fc5f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='12381:0']/div/div[4]/div/div/div/lightning-picklist/lightning-dual-listbox/div/div[2]/div/div[4]/lightning-button-icon/button/lightning-primitive-icon</value>
+      <webElementGuid>33512c6f-e0eb-4ce6-b2c0-2b99b634296e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/lightning-button-icon/button/lightning-primitive-icon</value>
+      <webElementGuid>fa4a55f1-57d3-4d35-bbc8-df66956b85c1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

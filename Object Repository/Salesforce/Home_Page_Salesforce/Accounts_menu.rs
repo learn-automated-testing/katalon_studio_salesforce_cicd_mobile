@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Accounts_menu</name>
+   <tag></tag>
+   <elementGuidId>eb63c526-a372-4437-bcc4-f2a937d5b7f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'slds-truncate']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Leads Menu'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4443da3c-d549-454e-b9f6-d7219e98b82d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-truncate</value>
+      <webElementGuid>0a42e8ae-9a0e-409c-a5f1-05e451ba0031</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Accounts</value>
+      <webElementGuid>813f7a56-ed8a-4c09-b716-2a2b72e108cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;desktop&quot;]/div[@class=&quot;desktop container forceStyle oneOne navexDesktopLayoutContainer lafAppLayoutHost forceAccess tablet&quot;]/div[@class=&quot;viewport&quot;]/section[@class=&quot;layoutContent stage panelSlide hasFixedFooter&quot;]/div[@class=&quot;none navexStandardManager&quot;]/div[@class=&quot;slds-no-print oneAppNavContainer&quot;]/one-appnav[1]/div[@class=&quot;slds-context-bar&quot;]/one-app-nav-bar[@class=&quot;slds-grid slds-has-flexi-truncate&quot;]/nav[@class=&quot;slds-context-bar__secondary navCenter&quot;]/div[@class=&quot;slds-grid slds-has-flexi-truncate navUL&quot;]/one-app-nav-bar-item-root[@class=&quot;navItem slds-context-bar__item slds-shrink-none&quot;]/a[@class=&quot;slds-context-bar__label-action dndItem&quot;]/span[@class=&quot;slds-truncate&quot;]</value>
+      <webElementGuid>60ffe24d-b24d-42fe-8623-c61557dd86c0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@class = 'slds-truncate']</value>
+      <webElementGuid>afcaae1a-d078-4264-bdc8-230f03e58b8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leads Menu'])[1]/following::span[1]</value>
+      <webElementGuid>f7551957-e8d9-4fb4-99f0-3355c8466820</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leads'])[1]/following::span[2]</value>
+      <webElementGuid>43703f78-825b-4e89-a07e-522773cdc87c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accounts Menu'])[1]/preceding::span[1]</value>
+      <webElementGuid>d52a3d5c-d024-4bb8-9302-8e676888c4c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contacts'])[1]/preceding::span[2]</value>
+      <webElementGuid>2e3c7509-7e30-420a-8872-3f83dcd93023</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Accounts']/parent::*</value>
+      <webElementGuid>37306510-bfd2-4d2f-aa04-6da3cfa423b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//one-app-nav-bar-item-root[4]/a/span</value>
+      <webElementGuid>dcfe5073-c4e7-46e2-9c18-42a7d352afa8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

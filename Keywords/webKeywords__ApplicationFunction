@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "BADEFB46AA03286E76FD0B698484E1AB",
+  "keywordClasses": [
+    {
+      "name": "webKeywords.ApplicationFunction",
+      "keywordMethods": [
+        {
+          "name": "enhanced_SetViewportSize",
+          "parameters": [
+            {
+              "name": "width",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "height",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

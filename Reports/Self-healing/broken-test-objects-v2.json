@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_Salesforce New/Account/Page_Mohit Katalon  Salesforce/button_Delete",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Change Record Type\u0027])[1]/following::button[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Change Owner\u0027])[1]/following::button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/OR_Salesforce New/Account/Page_Mohit Katalon  Salesforce/button_Delete_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_Salesforce New/Account/Accounts_Salesforce/Save",
+      "brokenLocator": "`//*[@name\u003d\u0027Save\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Save \u0026 New\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Salesforce/Dashboard/Page_New Dashboard  Salesforce/iframe_Show actions_sfxdash-iframe2",
+      "brokenLocator": "(//iframe[@title \u003d \u0027dashboard\u0027])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//iframe[@title \u003d \u0027dashboard\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Salesforce/Dashboard/Page_New Dashboard  Salesforce/iframe_Show actions_sfxdash-iframe2_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Salesforce/Dashboard/Page_New Dashboard  Salesforce/iframe_Show actions_sfxdash-1670340281212-492009",
+      "brokenLocator": "(//iframe[@title \u003d \u0027dashboard\u0027])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//iframe[@title \u003d \u0027dashboard\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Salesforce/Dashboard/Page_New Dashboard  Salesforce/iframe_Show actions_sfxdash-1670340281212-492009_BASIC.png"
+    }
+  ]
+}
