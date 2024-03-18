@@ -1,94 +1,48 @@
-# Introduction
+# Salesforce Automation Project with Katalon Studio
 
-This project demonstrates how Katalon Studio helps users to automate the Salesforce applications. it contains some of the test cases for Lead, Case, & Account Management. The Dashboard Management test cases contain an example for the iframe.
+This project demonstrates the automation of Salesforce applications using Katalon Studio, focusing on key CRM functionalities such as Lead, Case, Account, and Dashboard Management. It's designed to provide practical examples and best practices for automating Salesforce UI and API interactions.
 
-# Requirements
+## Requirements
 
-* [Katalon Studio][KS]
-* Salesforce Account
+- [Katalon Studio][KS] for test automation.
+- A Salesforce Developer Edition account for practicing and implementing test cases.
 
-# Use case
+## Salesforce Developer Edition
 
-For this sample project we are covering below mentioned use cases.
+For those looking to download and set up a Salesforce Developer Edition account, detailed instructions and resources are available on the [LearnAutomatedTesting.com portal](https://learnautomatedtesting.com). This resource provides step-by-step guidance on setting up your Salesforce environment, which is essential for following along with the automation examples provided in this project.
 
-Use Case No 1: Lead Management in Salesforce.
-     
-   Test Case:
-   
-      * Login into salesforce account
-      * Create a new lead
-      * Change status for a lead
-      * Change the lead owner
-      * Search lead with name and delete a lead
-      * Close application
-           
-Use Case No 2: Case Management in Salesforce.
+## Use Cases Covered
 
-   Test Case:
-   
-      * Login into salesforce account
-      * Create a new case
-      * Cedit a case and change the status
-      * Search a case by ID and delete a case
-      * Close application
-      
-Use Case No 3: Account Management in Salesforce.
-     
-   Test Case:
-   
-      * Login into salesforce account
-      * Create an account
-      * Close application
-      
-Use Case No 4: Dashboard Management in Salesforce.
+- **Lead Management in Salesforce**
+- **Case Management in Salesforce**
+- **Account Management in Salesforce** (including UI and API interactions)
+- **Dashboard Management in Salesforce**
 
-  Test Case:
-  
-      * Login into salesforce account
-      * Create a dashboard
-      * Create a component and add the report
-      * Create a filter
-      * Delete a dashboard
-      * Close application
+Each use case is accompanied by specific test cases designed to cover common functionalities within Salesforce, providing a comprehensive automation testing framework.
 
-# How to automate
+## How to Automate
 
-**Costomize Setting before recording a test case**
+Before diving into the automation scripts, ensure to:
 
-* Go to project >> Settings >> Test Design >> WebUI and Change the priority of Xpath Locators. [Here][1]
+1. **Customize Settings** - Adjust Xpath Locators and handle pop-ups efficiently.
+2. **Record Test Scripts** - Utilize Katalon's Recorder for capturing test steps.
+3. **Execute Tests** - Run your tests and verify the results for accuracy.
 
-![image](https://user-images.githubusercontent.com/84115288/214218084-b99e47c5-be63-49ad-89c2-fb4bcbcebb83.png)
+For a detailed walkthrough on automating these use cases, along with custom settings and enhancements (like switching to "Enhanced Click"), visit our [documentation][3] and tutorials on [LearnAutomatedTesting.com](https://learnautomatedtesting.com).
 
-* Add Desired Capability to handle Popup (Show Notification) [Here][2]
+## Running This Sample Project
 
-![image](https://user-images.githubusercontent.com/84115288/216290474-1b02af8d-7b78-49bf-a29c-4cfde6bdcb8a.png)
+1. **Set Up** - Update the Default Profile with your Salesforce application URL, Username, and Password.
+2. **Test Execution** - Follow the provided links to execute your tests and validate the results.
 
-* Record test script via Katalon Recorder. [Here][3]
+This project is designed to serve as a comprehensive guide for automating Salesforce applications, leveraging the powerful features of Katalon Studio and the extensive resources available on [LearnAutomatedTesting.com](https://learnautomatedtesting.com).
 
-* Save test objects and test cases. 
-
-* Run the test execution. [Here][5]
-
-* Verify the test execution result. [Here][6]
-
-**After Recording a test case if execution is failing because of "Element not interactable" exception then please change keyword "Click" to "Enhanced Click"**
-
-* ![image](https://user-images.githubusercontent.com/84115288/214219707-cee7a5cd-d1f3-4ac5-a2a2-009667e4d598.png)
-
-**How to run this sample project**
-
-* Update the application Salesforce application URL, Username, and Password inside the Default Profile. [Here][4]
-
-<img width="818" alt="Katalon profile view" src="https://user-images.githubusercontent.com/1128/214109634-f63eebd2-4433-4c4a-9d9a-dcc89b10df34.png">
-
-* Run the test execution. [Here][5]
-
-* Verify the test execution result. [Here][6]
-
-[1]: <https://docs.katalon.com/docs/maintain/self-healing-tests-in-katalon-studio#configure-test-design> "Here"
-[2]: <https://docs.katalon.com/docs/author/manage-projects/project-settings/desired-capabilities/manage-desired-capabilities-in-katalon-studio#ariaid-title1> "Here"
-[3]: <https://docs.katalon.com/docs/author/record-and-spy/webui-record-and-spy-utilities/record-web-utility-in-katalon-studio#record-a-new-test-case> "Here"
-[4]: <https://docs.katalon.com/docs/author/data-driven-testing/global-variables-and-execution-profile#execution-profile> "Here"
-[5]: <https://docs.katalon.com/docs/execute/execute-tests-with-katalon-studio/execute-tests-with-katalon-studio-overview#ariaid-title1> "Here"
-[6]: <https://docs.katalon.com/docs/analyze/reports/view-test-reports/view-test-reports-in-katalon-testops/view-test-results-and-execution-logs-in-katalon-testops#ariaid-title1> "Here"
-[KS]: <https://docs.katalon.com/docs/get-started/katalon-studio-installation/install-katalon-studio-on-macoswindows#download-katalon-studio> "Katalon Studio"
+Tools which can be used to derive the css xpath 
+[1]: https://docs.katalon.com/docs/author/record-and-spy/webui-record-and-spy-utilities/record-web-utility-in-katalon-studio#record-a-new-test-case "Record Web Utility"
+advise please try to fetch your own css xpath, when doing this properly and organizing it your project gets much more maintainable 
+[2]: https://docs.katalon.com/docs/author/data-driven-testing/global-variables-and-execution-profile#execution-profile "Execution Profile"
+I prefer to have testdata stored as json or csv as code which can be read by business user stakeholders as well keep maintainability
+[3]: api testing and salesforce 
+there will be an integration with salesforce and api testing shortly (to be investigated)
+[4]: Mobile testing overview  
+There will be an mobile integration with aws device farm, running the testcases on selenium grid 3 and also mobile capabilities 
