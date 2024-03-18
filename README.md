@@ -13,10 +13,10 @@ For those looking to download and set up a Salesforce Developer Edition account,
 
 ## Use Cases Covered
 
-- **Lead Management in Salesforce**
+- **Lead Management in Salesforce** (mobile shortly)
 - **Case Management in Salesforce**
 - **Account Management in Salesforce** (including UI and API interactions)
-- **Dashboard Management in Salesforce**
+
 
 Each use case is accompanied by specific test cases designed to cover common functionalities within Salesforce, providing a comprehensive automation testing framework.
 
@@ -24,11 +24,11 @@ Each use case is accompanied by specific test cases designed to cover common fun
 
 Before diving into the automation scripts, ensure to:
 
-1. **Customize Settings** - Adjust Xpath Locators and handle pop-ups efficiently.
-2. **Record Test Scripts** - Utilize Katalon's Recorder for capturing test steps.
+1. **Customize Settings** - Adjust Xpath Locators and handle pop-ups efficiently, the recorder provides you a first step, but a good testautomatoin consultant should have knowledge of xpath/css, even in the AI world :-) 
+2. **Record Test Scripts** - Utilize Katalon's Recorder for capturing test steps. very good feature to quickly setup tests, make sure to reorganize your object repo if you build your own framework, the recorder does its work but it gets messy if you are not aware of reorganizing 
 3. **Execute Tests** - Run your tests and verify the results for accuracy.
 
-For a detailed walkthrough on automating these use cases, along with custom settings and enhancements (like switching to "Enhanced Click"), visit our [documentation][3] and tutorials on [LearnAutomatedTesting.com](https://learnautomatedtesting.com).
+For a detailed walkthrough on automating these use cases, along with custom settings and enhancements (like switching to "Enhanced Click"), visit our [documentation][3] and tutorials on the katalon website. for more advanced level information regarding Salesforce setup and katalon, check my learnportal [LearnAutomatedTesting.com](https://learnautomatedtesting.com)
 
 ## Running This Sample Project
 
